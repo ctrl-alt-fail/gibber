@@ -1,6 +1,6 @@
-[submodule "themes/gokarna"]
-	path = themes/gokarna
-	url = https://github.com/gokarna-theme/gokarna-hugo.git
 [submodule "content"]
 	path = content
-	url = https://github.com/wizardfree/tome.git
+	url = https://github.com/ctrl-alt-fail/tome.git
+[submodule "themes/hugo-theme-stack"]
+	path = themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack/

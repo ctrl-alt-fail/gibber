@@ -1,81 +1,25 @@
-baseURL = "https://wizardinthe.cloud/"
+baseURL = "https://ctrl-alt.fail/"
 defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en"
-theme = "gokarna"
-pygmentsStyle = "dracula"
-title = "WIZARDINTHECLOUD"
+theme = "hugo-theme-stack"
+title = "ctrl-alt-fail"
+
+[permalinks]
+  post = "/:slug/"
 
 [params]
-  accentColor = "#3498DB"
-  avatarAltText = "avatar"
-  avatarSize = "size-m"
-  avatarURL = "/images/pixel_wizard.webp"
-  numberPostsOnHomePage = 3
-  showPostsOnHomePage = ""
+  description = "Foobar"
 
-  customHeadHTML = """"""
+[Params.Sidebar]
+  compact = false
+  emoji = "🧙🏻‍♂️"
+  subtitle = "Decoding life one byte at a time."
 
-  description = "Decoding life, one byte at a time."
-  footer = "Joseph Fleet"
-  metaKeywords = ["blog", "gokarna", "hugo"]
-  showBackToTopButton = true
-
-  socialIcons = [
-    {name = "linkedin", url = "https://example.com"},
-    {name = "email", url = "mailto:example@example.com"}
-  ]
-
-[menu]
-  [[menu.main]]
-    name = "blog"
-    pre = "<span data-feather='book'></span>"
-    url = "/blog/"
-    weight = 1
-
-  [[menu.main]]
-    name = "tags"
-    pre = "<span data-feather='tag'></span>"
-    url = "/tags/"
-    weight = 2
-
-  [[menu.main]]
-    name = "projects"
-    pre = "<span data-feather='code'></span>"
-    url = "/projects/"
-    weight = 3
-
-  [[menu.main]]
-    name = "links"
-    pre = "<span data-feather='link'></span>"
-    url = "/links/"
-    weight = 4
-
-  [[menu.main]]
-    name = "tech"
-    pre = "<span data-feather='monitor'></span>"
-    url = "/tech/"
-    weight = 5
-    
-  [[menu.main]]
-    identifier = "github"
-    url = "https://github.com/wizardfree"
-    weight = 6
-    pre = "<span data-feather='github'></span>"
-    post = ""
-
-  [[menu.main]]
-    identifier = "rss"
-    pre = "<span data-feather='rss'></span>"
-    url = "/index.xml"
-    weight = 7
-
-[markup]
-  [markup.tableOfContents]
-    startLevel = 1
-    endLevel = 4
-    ordered = false
+[Params.Footer]
+  since = 2025
+  customText = "Custom Text"
 
 [minify]
-    minifyOutput = true
+  minifyOutput = true
